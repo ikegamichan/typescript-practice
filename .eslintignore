@@ -1,0 +1,12 @@
+eslint-configs/**
+.eslintrc.js
+next.config.js
+postcss.config.js
+tailwind.config.js
+jest.config.mjs
+src/__generated__/**
+**/*.css
+**/*.scss
+**/*.gql
+**/*.mdx
+**/*.md
