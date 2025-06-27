@@ -1,3 +1,5 @@
-export function Page() {
-  return <div>array</div>;
+import { ArrayPractice } from '@/blocks/array';
+
+export default function Page() {
+  return <ArrayPractice />;
 }
