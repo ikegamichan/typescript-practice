@@ -1,4 +1,4 @@
 import React from 'react';
 export default function Page() {
-  return <div>ああああ </div>;
+  return <div>javascript</div>;
 }
