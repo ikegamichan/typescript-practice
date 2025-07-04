@@ -1,6 +1,6 @@
 'use client';
 
-import { ChevronRightIcon, ChevronUpIcon } from '@heroicons/react/16/solid';
+import { ChevronRightIcon, ChevronDownIcon } from '@heroicons/react/16/solid';
 import type { ReactNode } from 'react';
 import { useEffect, useRef, useState } from 'react';
 
@@ -28,7 +28,7 @@ export const AccordionBox = ({ title, children }: { title: string; children: Rea
         }}
       >
         <div className="text-lg font-semibold">{title}</div>
-        {isOpen ? <ChevronUpIcon className="size-8" /> : <ChevronRightIcon className="size-8" />}
+        {isOpen ? <ChevronDownIcon className="size-8" /> : <ChevronRightIcon className="size-8" />}
       </div>
       {isOpen && <div className="min-h-20 p-4">{children}</div>}
     </div>
